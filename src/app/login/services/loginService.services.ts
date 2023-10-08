@@ -1,9 +1,9 @@
 import { Injectable } from "@angular/core"
 import { HttpClient, HttpHeaders } from "@angular/common/http"
 
-@Injectable({
-    providedIn: 'root'
-})
+// @Injectable({
+//     providedIn: 'root'
+// })
 export class LoginService {
     
     BASE_URL: string = "http://127.0.0.1:8000";
