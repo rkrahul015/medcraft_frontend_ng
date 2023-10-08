@@ -1,11 +1,11 @@
 import { Component, OnInit } from "@angular/core";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 
-@Component({
-    selector: 'patient-registration',
-    templateUrl: './patient_registration.component.html',
-    styleUrls: ['./patient_registration.component.css']
-})
+// @Component({
+//     selector: 'patient-registration',
+//     templateUrl: './patient_registration.component.html',
+//     styleUrls: ['./patient_registration.component.css']
+// })
 export class PatientRegistration implements OnInit {
     patientRegistrationValue: number = -1;
     patientRegitrationForm: FormGroup = new FormGroup({});
