@@ -43,10 +43,6 @@ const routes: Routes = [
         path: 'hospital/dashboard',
         component: HospitalDashBoardComponent
     },
-    {
-        path: 'hospital/patient_appointment',
-        component: PatientRegistration
-    }
 ]
 
 @NgModule({
